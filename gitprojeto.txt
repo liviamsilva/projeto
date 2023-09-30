@@ -1,0 +1,32 @@
+  git config --global user.email "liviamaria998@hotmail.com"
+  git config --global user.name "Livia"
+
+
+
+
+echo "# Projeto2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:liviamaria98/Projeto2.git
+git push -u origin main
+
+-- quando eu quiser clonar um projeto
+ git clone git@github.com:liviamaria98/Projeto2.git
+
+-- quando eu quiser criar uma nova branch
+git checkout -b livia
+
+
+-- quando eu quiser consultar o status do arquivo
+git status
+
+--quando eu quiser adicionar um/+ arquivo
+git add .
+
+--quando eu quiser comitar alterações
+git commit -m "mensagem"
+
+-- quando eu quiser subir uma alteração p/ github
+git push origin livia
